@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,17 +16,79 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-              }
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
             }
-          }
         }
-      </script>
+    </script>
 </head>
-<body>
-    
+
+<body class="overflow-x-hidden">
+    <header class="container lg:w-[1100px] mx-auto">
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    
+                    <a class="btn btn-ghost text-xl"><i
+                        class="fa-solid fa-arrow-right -rotate-45 bg-lime-300 p-2 rounded-full">
+                    </i>Rinterio</a>
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden ml-40">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            <li><a>Home</a></li>
+                            <li><a>Services</a></li>
+                            <li><a>Portfolio</a></li>
+                            <li><a>Blogs</a></li>
+                            <li><a>Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li class="font-bold"><a>Home</a></li>
+                        <li class="font-semibold"><a>Services</a></li>
+                        <li class="font-semibold"><a>Portfolio</a></li>
+                        <li class="font-semibold"><a>Blogs</a></li>
+                        <li class="font-semibold"><a>Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end hidden lg:flex space-x-5">
+                    <i class="fa-duotone fa-solid fa-magnifying-glass bg-gray-200 p-2 rounded-full"></i>
+                    <i class="fa-sharp-duotone fa-solid fa-cart-shopping bg-gray-200 p-2 rounded-full"></i>
+                    <a class="px-5 py-2 rounded-full bg-lime-500">Book Consult <i
+                     class="fa-solid fa-arrow-right -rotate-45 bg-black text-white p-2 rounded-full"></i></a>
+                </div>
+            </div>
+        </nav>
+        <!-- banner section start -->
+        <!-- image content -->
+         <!-- <div class="text-center flex flex-col items-center">
+            <div>
+                <img class="" src="assets/banner.png" alt="">
+            </div>
+           
+            <div>
+                <h1 class="text-4xl font-bold md:text-4xl mb-5">A barn house of this design has a <br> striking
+                    appearance</h1>
+                <p class="text-gray-500">The barn house captivates with its blend of rustic charm and modern sophistication,
+                    featuring weathered wood, sleek metal <br> accents, and large windows that flood the space with
+                    natural light.</p>
+            </div>
+        </div> -->
+    </header>
+    <main></main>
+    <footer></footer>
 </body>
+
 </html>
