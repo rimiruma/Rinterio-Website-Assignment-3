@@ -33,9 +33,9 @@
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
 
-                    <a class="btn btn-ghost text-xl"><i
+                    <a class="text-xl"><i
                             class="fa-solid fa-arrow-right -rotate-45 bg-lime-300 p-2 rounded-full">
-                        </i>Rinterio</a>
+                        </i>  Rinterio</a>
                     <div class="dropdown">
                         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden ml-40">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
@@ -96,7 +96,7 @@
     <main class="container lg:w-[1100px] mx-auto">
         <!-- design thoughtful section start -->
         <section class="lg:mt-20 mt-10">
-            <div class="flex  flex-col lg:flex-row lg:flex-1 lg:gap-20 bg-slate-100 py-20">
+            <div class="flex  flex-col lg:flex-row lg:flex-1 lg:gap-20 bg-red-500 py-10">
                 <div class="space-y-7">
                     <div class="space-y-7 ml-10">
                         <div>
@@ -132,8 +132,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="w-[400px] h-[400px] mt-10 lg:mt-40">
-                    <img src="assets/Rectangle.png" alt="">
+                <div class="mt-10 lg:mt-40 h-[470px]">
+                    <img class="h-[470px] -ml-10" src="assets/Rectangle.png" alt="">
                 </div>
             </div>
         </section>
@@ -293,6 +293,8 @@
             </div>
          </section>
         <!-- Read Our Articles and News section ends -->
+
+        <!-- Let’s Discuss Next Project section start -->
         <section class="lg:py-32 py-10">
             <div class="text-center">
                 <div class="h-[800px]" style="background-image: url(./assets/bg.jpg);">
@@ -320,20 +322,45 @@
                             <input class="rounded-full p-3 w-full" type="email" name="" placeholder="Phone Number*"
                                 id="">
                         </div>
-                        <div class="">
-                        <textarea rows="4" cols="48" class="px-5" name="" placeholder="Write your message here"
-                            id=""></textarea>
+                        <div class="lg:col-span-2">
+                        <textarea rows="5" class="px-5 w-full"  name="" placeholder="Write your message here" id=""></textarea>
                         </div>
                     </div>
-                    <button class="bg-lime-300 px-40 lg:px-72 rounded-full mt-5 p-2">Send Mail <i
+                    <button class="bg-lime-300 px-20 lg:px-72 rounded-full mt-5 p-2">Send Mail <i
                             class="fa-solid fa-arrow-right -rotate-45 p-1 bg-black text-white rounded-full"></i>
                         </button>
                 </div>
             </div>
         </section>
+        <!-- Let’s Discuss Next Project section ends -->
     </main>
-    <footer></footer>
-
+    <!-- footer section start -->
+    <footer class="bg-black h-[400px] py-20">
+        <div class="text-center space-y-5">
+            <a class="text-xl text-white"><i
+                class="fa-solid fa-arrow-right -rotate-45 bg-lime-300 p-1 rounded-full text-black">
+            </i>   Rinterio</a>
+            <p class="text-gray-100 text-white">The barn house captivates with its blend of rustic charm and modern
+                sophistication, <br> featuring weathered wood, sleek metal accents.
+            </p>
+        </div>
+        <div class=" hidden lg:flex mt-3 text-white">
+            <ul class="menu menu-horizontal px-56 gap-20 text-center">
+                <li class="font-bold"><a>Home</a></li>
+                <li class="font-semibold"><a>Services</a></li>
+                <li class="font-semibold"><a>Portfolio</a></li>
+                <li class="font-semibold"><a>Blogs</a></li>
+                <li class="font-semibold"><a>Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="text-center">
+            <button class="bg-lime-300 lg:px-10 rounded-full mt-5 p-2">Send Mail <i
+                class="fa-solid fa-arrow-right -rotate-45 p-1 bg-black text-white rounded-full"></i>
+            </button>
+        </div>
+        <div class="border-2 mt-10"></div>
+    </footer>
+    <!-- footer section ends -->
 </body>
 
 </html>
